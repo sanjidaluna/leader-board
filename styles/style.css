@@ -155,8 +155,10 @@ border-radius: 14.6913px;
     .players,.blogs,.courses{
      
         grid-template-columns: repeat(1,1fr);
-        
+      position: absolute; top:0 ;right:0;
+     
     }
+    
 
     .player,.blog{
         flex-direction: column;
